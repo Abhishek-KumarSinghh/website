@@ -1,0 +1,29 @@
+.footer-bottom {
+  background-color: #684df4;
+  padding: 22px 0;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.footer-bottom-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-bottom-left-section {
+  color: white;
+}
+
+.footer-bottom-left-section a{
+    color: white;
+}
+
+.footer-bottom-right-section ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-bottom-right-section a {
+  color: white;
+}

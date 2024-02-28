@@ -1,0 +1,20 @@
+.service-card-para {
+    transition: 0.4s ease-in-out;
+    max-width: 230px;
+    margin: 0 auto 10px auto;
+}
+
+.service-card-para p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 18px 0;
+    color: #737887;
+    line-height: 1.75;
+}
+
+.service-card:hover .service-card-para p{
+    color: white;
+}
+
+/* .service-card .team-card-image img {
+    max-width: 220;
+} */

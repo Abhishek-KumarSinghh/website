@@ -1,0 +1,83 @@
+/* .card-slider-main-section {
+    padding: 100px 200px;
+    background-image: url(https://html.themeholy.com/webteck/demo/assets/img/bg/testi_bg_2.png);
+    background-image: url(https://html.themeholy.com/webteck/demo/assets/img/bg/testi_bg_2.png) !important;
+  } */
+
+.feedback-card-slider-main-section {
+  background-image: url(https://html.themeholy.com/webteck/demo/assets/img/bg/testi_bg_2.png) !important;
+}
+
+/* .feedback-card-slider {
+  padding: 50px;
+  margin: 50px;
+} */
+
+.feedback-card {
+  display: flex !important;
+  flex-direction: row;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 15px rgba(8, 14, 28, 0.06);
+  border-radius: 10px;
+  gap: 30px;
+  padding: 40px;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  overflow-x: hidden;
+}
+
+.feedback-card-image img {
+  border-radius: 10px;
+}
+
+.feedback-card-content-top {
+  margin-top: -0.45em;
+  padding-bottom: 23px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e2e8fa;
+}
+
+.feedback-card-content-top p {
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 18px 0;
+  color: #737887;
+  line-height: 1.75;
+}
+
+.feedback-card-content-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 1.417;
+  font-weight: 700;
+  margin-top: -0.32em;
+}
+
+.feedback-card-content-bottom-last p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 18px 0;
+  color: #737887;
+  line-height: 1.75;
+}
+
+@media (max-width: 700px) {
+  .feedback-card {
+    display: block !important;
+    text-align: center;
+  }
+
+  .feedback-card-image img {
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .feedback-card-content-bottom {
+    display: block;
+  }
+}
